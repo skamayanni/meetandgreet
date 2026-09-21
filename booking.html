@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Request a Meet & Greet | Avery King</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span>AK</span>
+            Avery King
+        </a>
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="packages.html">
+                Packages
+            </a>
+
+            <a href="donate.html">Donate</a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a href="booking.html" class="nav-button">
+            Request a Meet & Greet
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- BOOKING HERO -->
+
+        <section class="booking-hero">
+
+            <p class="eyebrow">
+                PRIVATE EXPERIENCE REQUEST
+            </p>
+
+            <h1>
+                Request your
+                <span>moment.</span>
+            </h1>
+
+            <p>
+                Complete the form below and our experience team
+                will review your request and contact you regarding
+                availability.
+            </p>
+
+        </section>
+
+
+        <!-- BOOKING AREA -->
+
+        <section class="booking-section">
+
+
+            <div class="booking-layout">
+
+
+                <!-- LEFT SIDE -->
+
+                <div class="booking-info">
+
+                    <p class="eyebrow">
+                        BEFORE YOU SUBMIT
+                    </p>
+
+                    <h2>
+                        Let's create
+                        something memorable.
+                    </h2>
+
+                    <p>
+                        Tell us a little about the experience you're
+                        looking for. Your request will be reviewed
+                        individually by our experience team.
+                    </p>
+
+
+                    <div class="booking-point">
+
+                        <span>01</span>
+
+                        <div>
+
+                            <h3>
+                                Submit your request
+                            </h3>
+
+                            <p>
+                                Complete the form with your preferred
+                                package, date and location.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="booking-point">
+
+                        <span>02</span>
+
+                        <div>
+
+                            <h3>
+                                Availability review
+                            </h3>
+
+                            <p>
+                                Our team will review your request and
+                                check availability.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="booking-point">
+
+                        <span>03</span>
+
+                        <div>
+
+                            <h3>
+                                Confirmation
+                            </h3>
+
+                            <p>
+                                If your request can be accommodated,
+                                we'll contact you with the next steps.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- FORM -->
+
+                <div class="booking-form-container">
+
+                    <form id="bookingForm">
+
+
+                        <div class="form-title">
+
+                            <span>
+                                MEET & GREET REQUEST
+                            </span>
+
+                            <h2>
+                                Your Details
+                            </h2>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="firstName">
+                                    First Name
+                                </label>
+
+                                <input type="text" id="firstName" required placeholder="Your first name">
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="lastName">
+                                    Last Name
+                                </label>
+
+                                <input type="text" id="lastName" required placeholder="Your last name">
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email Address
+                                </label>
+
+                                <input type="email" id="email" required placeholder="you@example.com">
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="phone">
+                                    Phone Number
+                                </label>
+
+                                <input type="tel" id="phone" required placeholder="+1 000 000 0000">
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="package">
+                                Select Experience
+                            </label>
+
+                            <select id="package" required>
+
+                                <option value="">
+                                    Select a package
+                                </option>
+
+                                <option value="Essential">
+                                    Essential — $499
+                                </option>
+
+                                <option value="Premium">
+                                    Premium — $999
+                                </option>
+
+                                <option value="VIP">
+                                    VIP — $1,999
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="date">
+                                    Preferred Date
+                                </label>
+
+                                <input type="date" id="date" required>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="guests">
+                                    Number of Guests
+                                </label>
+
+                                <select id="guests">
+
+                                    <option value="1">
+                                        1 person
+                                    </option>
+
+                                    <option value="2">
+                                        2 people
+                                    </option>
+
+                                    <option value="3">
+                                        3 people
+                                    </option>
+
+                                    <option value="4">
+                                        4 people
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="location">
+                                Preferred Location
+                            </label>
+
+                            <input type="text" id="location" placeholder="City / Country" required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="message">
+                                Tell us about your request
+                            </label>
+
+                            <textarea id="message" rows="5"
+                                placeholder="Tell us anything you'd like our team to know..."></textarea>
+
+                        </div>
+
+
+                        <label class="checkbox">
+
+                            <input type="checkbox" required>
+
+                            <span>
+                                I understand that submitting this form
+                                is a request and does not guarantee an
+                                appointment.
+                            </span>
+
+                        </label>
+
+
+                        <button type="submit" class="form-submit">
+                            Submit Experience Request
+                        </button>
+
+
+                        <div id="formMessage" class="form-message"></div>
+
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div>
+
+                <a href="index.html" class="logo">
+
+                    <span>AK</span>
+
+                    Avery King
+
+                </a>
+
+                <p>
+                    Creating memorable fan experiences,
+                    one moment at a time.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>Explore</h4>
+
+                    <a href="index.html">
+                        Home
+                    </a>
+
+                    <a href="packages.html">
+                        Packages
+                    </a>
+
+                    <a href="donate.html">Donate</a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Avery King. All rights reserved.
+            </span>
+
+            <span>
+                Private fan experiences
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

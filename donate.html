@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Support | Avery King</title>
+
+    <meta name="description"
+        content="Support the Avery King community and help create meaningful experiences for fans and charitable initiatives.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- NAVIGATION -->
+
+    <header class="navbar">
+
+        <a href="index.html" class="logo">
+            <span>AK</span>
+            Avery King
+        </a>
+
+
+        <nav class="nav-links">
+
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="index.html#about">
+                About
+            </a>
+
+            <a href="packages.html">
+                Packages
+            </a>
+
+            <a href="donate.html" class="active">
+                Donate
+            </a>
+
+            <a href="contact.html">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <a href="booking.html" class="nav-button">
+            Request a Meet & Greet
+        </a>
+
+
+        <button class="menu-toggle" id="menuToggle">
+            ☰
+        </button>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- HERO -->
+
+        <section class="donation-hero">
+
+            <div class="donation-hero-content">
+
+                <p class="eyebrow">
+                    SUPPORT THE COMMUNITY
+                </p>
+
+                <h1>
+                    Give a little.
+                    <span>Make an impact.</span>
+                </h1>
+
+                <p>
+                    Your support helps us create meaningful fan experiences,
+                    community initiatives and special moments that bring
+                    people together.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- DONATION AREA -->
+
+        <section class="donation-section">
+
+
+            <div class="donation-layout">
+
+
+                <!-- LEFT INFORMATION -->
+
+                <div class="donation-about">
+
+                    <p class="eyebrow">
+                        WHY SUPPORT?
+                    </p>
+
+                    <h2>
+                        Every contribution
+                        helps create
+                        <span>something meaningful.</span>
+                    </h2>
+
+                    <p>
+                        Contributions can help support community initiatives,
+                        special fan events and projects organized by the
+                        official team.
+                    </p>
+
+
+                    <div class="donation-points">
+
+
+                        <div class="donation-point">
+
+                            <div class="donation-number">
+                                01
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Community
+                                </h3>
+
+                                <p>
+                                    Supporting initiatives designed to
+                                    positively impact communities.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="donation-point">
+
+                            <div class="donation-number">
+                                02
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Fan Experiences
+                                </h3>
+
+                                <p>
+                                    Helping create special events and
+                                    memorable experiences.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="donation-point">
+
+                            <div class="donation-number">
+                                03
+                            </div>
+
+                            <div>
+
+                                <h3>
+                                    Special Initiatives
+                                </h3>
+
+                                <p>
+                                    Supporting selected projects and
+                                    charitable initiatives.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- DONATION CARD -->
+
+                <div class="donation-card">
+
+
+                    <div class="donation-card-header">
+
+                        <span>
+                            MAKE A CONTRIBUTION
+                        </span>
+
+                        <h2>
+                            Choose an amount
+                        </h2>
+
+                    </div>
+
+
+                    <!-- AMOUNTS -->
+
+                    <div class="amount-grid">
+
+                        <button type="button" class="amount-button" data-amount="25">
+                            $25
+                        </button>
+
+                        <button type="button" class="amount-button" data-amount="50">
+                            $50
+                        </button>
+
+                        <button type="button" class="amount-button" data-amount="100">
+                            $100
+                        </button>
+
+                        <button type="button" class="amount-button" data-amount="250">
+                            $250
+                        </button>
+
+                        <button type="button" class="amount-button" data-amount="500">
+                            $500
+                        </button>
+
+                        <button type="button" class="amount-button" data-amount="1000">
+                            $1,000
+                        </button>
+
+                    </div>
+
+
+                    <!-- CUSTOM AMOUNT -->
+
+                    <div class="custom-donation">
+
+                        <label for="customAmount">
+                            Custom amount
+                        </label>
+
+                        <div class="amount-input">
+
+                            <span>$</span>
+
+                            <input type="number" id="customAmount" placeholder="Enter amount" min="1">
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="selected-donation">
+
+                        <span>
+                            Selected contribution
+                        </span>
+
+                        <strong id="selectedAmount">
+                            $0
+                        </strong>
+
+                    </div>
+
+
+                    <button type="button" class="donate-button" id="continueDonation">
+                        Continue to Payment
+                    </button>
+
+
+                    <p class="donation-note">
+                        You will be able to choose your preferred payment
+                        method on the next step.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- PAYMENT METHODS -->
+
+        <section class="payment-section" id="directPaymentSection">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">DIRECT PAYMENT</span>
+                    <h2>Complete Your Contribution</h2>
+                    <p>
+                        Choose your preferred payment method below.
+                    </p>
+                </div>
+
+                <div class="payment-amount-highlight">
+                    <span>Your Contribution</span>
+                    <strong id="paymentAmount">$0</strong>
+                </div>
+
+                <!-- Your existing payment methods go here -->
+
+
+
+                <div class="payment-grid">
+
+
+                    <!-- CARD -->
+
+                    <div class="payment-method">
+
+                        <div class="payment-icon">
+                            CARD
+                        </div>
+
+                        <h3>
+                            Card Payment
+                        </h3>
+
+                        <p>
+                            Make a contribution using a supported debit
+                            or credit card.
+                        </p>
+
+                        <button type="button" class="payment-action" id="cardPaymentButton">
+                            Continue with Card
+
+                            <span class="payment-method-amount" id="cardPaymentAmount">
+                                $0
+                            </span>
+                        </button>
+
+                    </div>
+
+
+
+                    <!-- CRYPTO -->
+
+                    <div class="payment-method crypto-method">
+
+                        <div class="payment-icon">
+                            BTC
+                        </div>
+
+                        <h3>
+                            Cryptocurrency
+                        </h3>
+
+                        <p>
+                            Send a contribution directly to the verified
+                            campaign wallet.
+                        </p>
+
+                        <div class="payment-method-amount crypto-payment-amount" id="cryptoPaymentAmount">
+                            Contribution: $0
+                        </div>
+
+
+                        <div class="crypto-selector">
+
+                            <button type="button" class="crypto-tab active" data-crypto="btc">
+                                Bitcoin
+                            </button>
+
+                            <button type="button" class="crypto-tab" data-crypto="eth">
+                                Ethereum
+                            </button>
+
+                            <button type="button" class="crypto-tab" data-crypto="usdt">
+                                USDT
+                            </button>
+
+                        </div>
+
+
+                        <!-- QR PLACEHOLDER -->
+
+                        <div class="qr-container">
+
+                            <img id="cryptoQR" src="images/crypto-qr-placeholder.png"
+                                alt="Cryptocurrency payment QR code">
+
+                        </div>
+
+
+                        <div class="wallet-label">
+                            Bitcoin wallet address
+                        </div>
+
+
+                        <div class="wallet-box">
+
+                            <span id="walletAddress">
+                                YOUR_VERIFIED_BTC_WALLET_ADDRESS
+                            </span>
+
+                            <button type="button" id="copyWallet">
+                                Copy
+                            </button>
+
+                        </div>
+
+
+                        <p class="crypto-warning">
+                            Verify the network and wallet address before
+                            sending any cryptocurrency. Cryptocurrency
+                            transactions may not be reversible.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- BANK -->
+
+                    <div class="payment-method">
+
+                        <div class="payment-icon">
+                            BANK
+                        </div>
+
+                        <h3>
+                            Bank Transfer
+                        </h3>
+
+                        <p>
+                            For larger contributions or direct transfers,
+                            use the verified campaign account details.
+                        </p>
+
+                        <div class="payment-method-amount bank-payment-amount" id="bankPaymentAmount">
+                            Contribution: $0
+                        </div>
+
+
+                        <div class="bank-details">
+
+                            <div>
+                                <span>
+                                    ACCOUNT NAME
+                                </span>
+
+                                <strong>
+                                    Campaign / Organization Name
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    BANK
+                                </span>
+
+                                <strong>
+                                    Your Bank Name
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    ACCOUNT NUMBER
+                                </span>
+
+                                <strong>
+                                    XXXX XXXX XXXX
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <p class="payment-note">
+                            Replace the placeholder information above with
+                            the verified account belonging to the authorized
+                            campaign or organization.
+                        </p>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            <button type="button" class="back-to-contribution" id="changeDonationAmount">
+
+                ← Change Contribution Amount
+
+            </button>
+
+        </section>
+
+
+
+        <!-- TRANSPARENCY -->
+
+        <section class="transparency-section">
+
+            <div>
+
+                <p class="eyebrow">
+                    TRANSPARENCY
+                </p>
+
+                <h2>
+                    Your support
+                    deserves clarity.
+                </h2>
+
+                <p>
+                    Please ensure that all payment information displayed
+                    on this page belongs to the authorized organization
+                    receiving contributions. Donation records and
+                    acknowledgements should be maintained by the
+                    campaign or organization responsible for the page.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- FAQ -->
+
+        <section class="faq-section">
+
+            <div class="section-heading">
+
+                <p class="eyebrow">
+                    DONATION FAQ
+                </p>
+
+                <h2>
+                    Questions about
+                    <span>giving?</span>
+                </h2>
+
+            </div>
+
+
+            <div class="faq-list">
+
+
+                <details>
+
+                    <summary>
+                        Can I choose how much I donate?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Yes. You can select one of the suggested amounts
+                        or enter a custom contribution.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Can I donate using cryptocurrency?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Cryptocurrency contributions can be accepted when
+                        the campaign has a verified wallet and appropriate
+                        payment arrangements in place.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        Are donations refundable?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Refund policies depend on the organization and
+                        payment provider receiving the contribution.
+                        Please contact the organization before donating
+                        if you need clarification.
+                    </p>
+
+                </details>
+
+
+                <details>
+
+                    <summary>
+                        How do I know the payment details are genuine?
+                        <span>+</span>
+                    </summary>
+
+                    <p>
+                        Always verify payment information through the
+                        organization's official communication channels
+                        before transferring funds.
+                    </p>
+
+                </details>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- CTA -->
+
+        <section class="contact-cta">
+
+            <p class="eyebrow">
+                HAVE A QUESTION?
+            </p>
+
+            <h2>
+                We're here to
+                <span>help.</span>
+            </h2>
+
+            <p>
+                Contact the experience team if you have questions
+                before making a contribution.
+            </p>
+
+            <a href="contact.html" class="btn btn-primary">
+                Contact the Team
+            </a>
+
+        </section>
+
+
+    </main>
+
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div>
+
+                <a href="index.html" class="logo">
+                    <span>AK</span>
+                    Avery King
+                </a>
+
+                <p>
+                    Creating memorable fan experiences,
+                    one moment at a time.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <div>
+
+                    <h4>
+                        Explore
+                    </h4>
+
+                    <a href="index.html">
+                        Home
+                    </a>
+
+                    <a href="index.html#about">
+                        About
+                    </a>
+
+                    <a href="packages.html">
+                        Packages
+                    </a>
+
+
+                    <a href="donate.html">Donate</a>
+
+                    <a href="contact.html">
+                        Contact
+                    </a>
+
+                </div>
+
+
+                <div>
+
+                    <h4>
+                        Experience
+                    </h4>
+
+                    <a href="booking.html">
+                        Request Booking
+                    </a>
+
+                    <a href="packages.html">
+                        VIP Experience
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Avery King. All rights reserved.
+            </span>
+
+            <span>
+                Private fan experiences
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
