@@ -7,7 +7,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Experiences | The Experience</title>
+    <title>Celebrity Profile</title>
 
     <link rel="stylesheet" href="css/style.css">
 
@@ -20,10 +20,6 @@
 
 <body>
 
-
-    <!-- =========================
-     NAVIGATION
-========================= -->
 
     <header class="site-header">
 
@@ -56,12 +52,12 @@
                     Contact
                 </a>
 
+
                 <a href="booking.html#bookingForm" id="profileBooking" class="nav-button">
                     Request a Meet & Greet
                 </a>
 
             </nav>
-
 
 
             <button class="menu-toggle" id="menuToggle">
@@ -71,32 +67,48 @@
     </header>
 
 
-    <!-- =========================
-     HERO
-========================= -->
-
     <main>
 
-        <section class="packages-hero">
+
+        <!-- HERO -->
+
+        <section class="profile-hero">
 
             <div class="container">
 
-                <div class="packages-hero-content">
+                <div class="profile-hero-content">
 
-                    <span class="eyebrow">
-                        EXCLUSIVE EXPERIENCES
-                    </span>
+                    <div class="profile-image">
 
-                    <h1>
-                        Meet
-                        <em id="packagesCelebrityName">
-                            Your Celebrity
-                        </em>
-                    </h1>
+                        <img id="profileImage" src="" alt="">
 
-                    <p id="packagesHeroDescription">
-                        Choose the experience that feels right for you.
-                    </p>
+                    </div>
+
+                    <div>
+
+                        <span class="eyebrow" id="profileCategory">
+                        </span>
+
+                        <h1 id="profileName">
+                        </h1>
+
+                        <p id="profileShortBio">
+                        </p>
+
+                        <div class="profile-actions">
+
+                            <a href="packages.html#packagesContainer" class="explore-button">
+                                EXPLORE EXPERIENCES
+                            </a>
+
+
+                            <a href="donate.html#donationlayout" class="explore-button">
+                                MAKE DONATION
+                            </a>
+
+                        </div>
+
+                    </div>
 
                 </div>
 
@@ -104,90 +116,40 @@
 
         </section>
 
+        <br>
 
-        <!-- =========================
-     PACKAGES
-========================= -->
 
-        <section class="packages-section">
+        <!-- ABOUT -->
 
-            <div class="container" id="packagesContainer">
+        <section class="profile-about" id="about">
+
+            <div class="container">
 
                 <div class="section-heading">
 
                     <span class="eyebrow">
-                        SELECT YOUR EXPERIENCE
+                        ABOUT
                     </span>
 
-                    <h2 id="packagesHeading">
-                        Available Experiences
+                    <h2 id="aboutName">
                     </h2>
-
-                    <p id="packagesDescription">
-                        Explore the available experiences and
-                        choose the one that suits you.
-                    </p>
 
                 </div>
 
+                <div class="profile-about-content">
 
-                <!-- DYNAMIC PACKAGES -->
-
-                <div class="packages-grid" id="packagesGrid"></div>
-
-
-                <p class="package-disclaimer">
-                    We now support <span>Pay in Installments.</span>
-                    Scheduling, availability and final confirmation
-                    are subject to approval.
-                    Contact Customer Care for more details.
-                </p>
-
-            </div>
-
-        </section>
-
-
-        <!-- =========================
-     CTA
-========================= -->
-
-        <section class="packages-cta">
-
-            <div class="container">
-
-                <div class="packages-cta-content">
-
-                    <span class="eyebrow">
-                        HAVE QUESTIONS?
-                    </span>
-
-                    <h2>
-                        Need Help Choosing?
-                    </h2>
-
-                    <p id="packagesCtaText">
-                        Get in touch with the team before requesting
-                        an experience.
+                    <p id="profileBio">
                     </p>
-
-
-                    <a href="javascript:void(0)" class="primary-button" onclick="openTawkChat()">
-                        Contact Us
-                    </a>
 
                 </div>
 
             </div>
 
         </section>
+
 
     </main>
 
-
-    <!-- =========================
-     FOOTER
-========================= -->
 
     <footer>
 
@@ -224,11 +186,6 @@
 
     </footer>
 
-
-    <!-- =========================
-     JAVASCRIPT
-========================= -->
-
     <script src="js/celebrities.js"></script>
     <script src="js/script.js"></script>
 
@@ -245,6 +202,7 @@
         })();
     </script>
     <!--End of Tawk.to Script-->
+
 </body>
 
 </html>

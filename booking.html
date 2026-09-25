@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Request a Meet & Greet | Avery King</title>
+    <title>| Request a Meet & Greet |</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,44 +23,51 @@
 <body>
 
 
-    <header class="navbar">
+    <!-- HEADER -->
 
-        <a href="index.html" class="logo">
-            <span>AK</span>
-            Avery King
-        </a>
+    <header class="site-header">
 
-        <nav class="nav-links">
+        <div class="container nav-container">
 
-            <a href="index.html">
-                Home
+            <a href="index.html" class="logo">
+                <span>THE</span>
+                EXPERIENCE
             </a>
 
-            <a href="index.html#about">
-                About
-            </a>
+            <nav class="nav-links">
 
-            <a href="packages.html">
-                Packages
-            </a>
+                <a href="index.html">
+                    Home
+                </a>
 
-            <a href="donate.html">Donate</a>
+                <a href="#about" class="nav-celebrity-about">
+                    About
+                </a>
 
-            <a href="contact.html">
-                Contact
-            </a>
+                <a href="packages.html" class="nav-celebrity-packages">
+                    Packages
+                </a>
 
-        </nav>
+                <a href="donate.html" class="nav-celebrity-support">
+                    Donate
+                </a>
+
+                <a href="#" id="contactTawk">
+                    Contact
+                </a>
+
+                <a href="booking.html#bookingForm" id="profileBooking" class="nav-button">
+                    Request a Meet & Greet
+                </a>
+
+            </nav>
 
 
-        <a href="booking.html" class="nav-button">
-            Request a Meet & Greet
-        </a>
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
 
-
-        <button class="menu-toggle" id="menuToggle">
-            ☰
-        </button>
+        </div>
 
     </header>
 
@@ -78,10 +85,16 @@
 
             <h1>
                 Request your
-                <span>moment.</span>
+                <br>
+                <span>moment</span>
+                <br>
+                with
+                <em id="bookingCelebrityName">
+                    Your Celebrity
+                </em>.
             </h1>
 
-            <p>
+            <p id="bookingHeroDescription">
                 Complete the form below and our experience team
                 will review your request and contact you regarding
                 availability.
@@ -93,7 +106,6 @@
         <!-- BOOKING AREA -->
 
         <section class="booking-section">
-
 
             <div class="booking-layout">
 
@@ -187,6 +199,19 @@
                     <form id="bookingForm">
 
 
+                        <!-- WEB3FORMS SETTINGS -->
+
+                        <input type="hidden" name="access_key" value="706b76aa-3212-4584-9b8a-b632feed9dc4">
+
+                        <input type="hidden" name="subject" value="New Meet & Greet Experience Request">
+
+                        <input type="hidden" name="from_name" value="The Experience Website">
+
+                        <!-- Honeypot spam protection -->
+
+                        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+
                         <div class="form-title">
 
                             <span>
@@ -200,6 +225,8 @@
                         </div>
 
 
+                        <!-- FIRST AND LAST NAME -->
+
                         <div class="form-row">
 
                             <div class="form-group">
@@ -208,7 +235,8 @@
                                     First Name
                                 </label>
 
-                                <input type="text" id="firstName" required placeholder="Your first name">
+                                <input type="text" id="firstName" name="firstName" required
+                                    placeholder="Your first name">
 
                             </div>
 
@@ -219,12 +247,14 @@
                                     Last Name
                                 </label>
 
-                                <input type="text" id="lastName" required placeholder="Your last name">
+                                <input type="text" id="lastName" name="lastName" required placeholder="Your last name">
 
                             </div>
 
                         </div>
 
+
+                        <!-- EMAIL AND PHONE -->
 
                         <div class="form-row">
 
@@ -234,7 +264,7 @@
                                     Email Address
                                 </label>
 
-                                <input type="email" id="email" required placeholder="you@example.com">
+                                <input type="email" id="email" name="email" required placeholder="you@example.com">
 
                             </div>
 
@@ -245,12 +275,14 @@
                                     Phone Number
                                 </label>
 
-                                <input type="tel" id="phone" required placeholder="+1 000 000 0000">
+                                <input type="tel" id="phone" name="phone" required placeholder="+1 000 000 0000">
 
                             </div>
 
                         </div>
 
+
+                        <!-- EXPERIENCE -->
 
                         <div class="form-group">
 
@@ -258,7 +290,7 @@
                                 Select Experience
                             </label>
 
-                            <select id="package" required>
+                            <select id="package" name="package" required>
 
                                 <option value="">
                                     Select a package
@@ -281,6 +313,8 @@
                         </div>
 
 
+                        <!-- DATE AND GUESTS -->
+
                         <div class="form-row">
 
                             <div class="form-group">
@@ -289,7 +323,7 @@
                                     Preferred Date
                                 </label>
 
-                                <input type="date" id="date" required>
+                                <input type="date" id="date" name="date" required>
 
                             </div>
 
@@ -300,7 +334,7 @@
                                     Number of Guests
                                 </label>
 
-                                <select id="guests">
+                                <select id="guests" name="guests">
 
                                     <option value="1">
                                         1 person
@@ -325,16 +359,20 @@
                         </div>
 
 
+                        <!-- LOCATION -->
+
                         <div class="form-group">
 
                             <label for="location">
                                 Preferred Location
                             </label>
 
-                            <input type="text" id="location" placeholder="City / Country" required>
+                            <input type="text" id="location" name="location" placeholder="City / Country" required>
 
                         </div>
 
+
+                        <!-- MESSAGE -->
 
                         <div class="form-group">
 
@@ -342,15 +380,18 @@
                                 Tell us about your request
                             </label>
 
-                            <textarea id="message" rows="5"
+                            <textarea id="message" name="message" rows="5"
                                 placeholder="Tell us anything you'd like our team to know..."></textarea>
 
                         </div>
 
 
+                        <!-- AGREEMENT -->
+
                         <label class="checkbox">
 
-                            <input type="checkbox" required>
+                            <input type="checkbox" id="requestAgreement" name="requestAgreement" value="Agreed"
+                                required>
 
                             <span>
                                 I understand that submitting this form
@@ -361,10 +402,14 @@
                         </label>
 
 
-                        <button type="submit" class="form-submit">
+                        <!-- SUBMIT -->
+
+                        <button type="submit" class="form-submit" id="submitExperienceRequest">
                             Submit Experience Request
                         </button>
 
+
+                        <!-- FORM RESPONSE -->
 
                         <div id="formMessage" class="form-message"></div>
 
@@ -380,6 +425,8 @@
     </main>
 
 
+    <!-- FOOTER -->
+
     <footer>
 
         <div class="footer-main">
@@ -387,11 +434,8 @@
             <div>
 
                 <a href="index.html" class="logo">
-
-                    <span>AK</span>
-
-                    Avery King
-
+                    <span>THE</span>
+                    EXPERIENCE
                 </a>
 
                 <p>
@@ -401,38 +445,13 @@
 
             </div>
 
-
-            <div class="footer-links">
-
-                <div>
-
-                    <h4>Explore</h4>
-
-                    <a href="index.html">
-                        Home
-                    </a>
-
-                    <a href="packages.html">
-                        Packages
-                    </a>
-
-                    <a href="donate.html">Donate</a>
-
-                    <a href="contact.html">
-                        Contact
-                    </a>
-
-                </div>
-
-            </div>
-
         </div>
 
 
         <div class="footer-bottom">
 
             <span>
-                © 2026 Avery King. All rights reserved.
+                © 2026 THE EXPERIENCE. All rights reserved.
             </span>
 
             <span>
@@ -444,21 +463,32 @@
     </footer>
 
 
+    <!-- CELEBRITY DATA MUST LOAD FIRST -->
+
+    <script src="js/celebrities.js"></script>
+
+    <!-- MAIN WEBSITE SCRIPT -->
+
     <script src="js/script.js"></script>
 
+
+    <!-- TAWK.TO -->
+
     <!--Start of Tawk.to Script-->
+
     <script type="text/javascript">
         var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
         (function () {
             var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
             s1.async = true;
-            s1.src = 'https://embed.tawk.to/6ab15b1804573f34480e9dd4/1k32cnn01';
+            s1.src = 'https://embed.tawk.to/68c6bc223c57f819275d5edd/1j544tq3s';
             s1.charset = 'UTF-8';
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
     </script>
     <!--End of Tawk.to Script-->
+
 
 </body>
 
