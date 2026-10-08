@@ -635,56 +635,45 @@ const celebrities = {
     },
 
 
-    "jelly-roll": {
-
-        name: "Jelly Roll",
-
-        category: "Country Singer & Songwriter",
-
-        image:
-            "images/jelly-roll.jpg",
-
-        heroImage:
-            "images/jelly-roll-hero.jpg",
+    "steve-perry": {
+        name: "Steve Perry",
+        category: "Rock Singer & Songwriter",
+        image: "images/steve-perry.jpg",
+        heroImage: "images/steve-perry-hero.jpg",
 
         shortBio:
-            "Genre-blending singer and songwriter whose music combines country, rock, hip-hop, and Southern influences with deeply personal storytelling.",
+            "American rock singer and songwriter best known as the legendary lead vocalist of Journey and for his influential solo career, powerful voice, and timeless rock classics.",
 
-        bio:
-            `
-        <p>Jelly Roll is an American singer and songwriter whose music blends country, rock, hip-hop, and Southern influences. His songwriting frequently draws from personal experiences, relationships, hardship, redemption, and personal growth.</p>
+        bio: `
+        <p>Steve Perry is an American rock singer and songwriter widely recognized for his distinctive tenor voice and his influential work as the lead vocalist of Journey. Born in Hanford, California, Perry developed an interest in music at an early age and eventually pursued a career as a professional singer and songwriter.</p>
 
-        <p>Born Jason DeFord in Antioch, Tennessee, Jelly Roll built his early audience through independent music before expanding into the country and mainstream music worlds.</p>
+        <p>Perry joined Journey in the late 1970s and became one of the defining voices of the band's most successful period. His powerful vocals and emotional delivery played a major role in shaping Journey's sound during the band's rise to international prominence.</p>
 
-        <p>His breakthrough in country music included collaborations with established country artists and the success of songs such as “Son of a Sinner,” which introduced his distinctive style to an even broader audience.</p>
+        <p>With Journey, Perry performed on several highly successful albums, including <em>Infinity</em>, <em>Evolution</em>, <em>Departure</em>, <em>Escape</em>, and <em>Frontiers</em>. The album <em>Escape</em> produced some of Journey's most recognizable songs and became one of the landmark albums of 1980s rock.</p>
 
-        <p>Jelly Roll has collaborated with artists across multiple genres, demonstrating the flexibility of his sound. His music frequently combines emotional lyrics with elements of country, rock, and hip-hop.</p>
-
-        <p>His career has also included major award recognition, extensive touring, and performances at some of the largest venues in the United States.</p>
+        <p>Perry also developed a successful solo career. His debut solo album, <em>Street Talk</em>, was released in 1984 and produced the major hit "Oh Sherrie." He later released <em>For the Love of Strange Medicine</em> in 1994 before eventually returning to music with later solo projects.</p>
 
         <h3>Some notable songs include:</h3>
 
         <ul>
-            <li>“Son of a Sinner”</li>
-            <li>“Need a Favor”</li>
-            <li>“Save Me” with Lainey Wilson</li>
-            <li>“I Am Not Okay”</li>
-            <li>“Liar”</li>
-            <li>“Dead Man Walking”</li>
-            <li>“Creature”</li>
-            <li>“Halfway to Hell”</li>
-            <li>“Winning Streak”</li>
-            <li>“Save Me”</li>
+            <li>"Don't Stop Believin'"</li>
+            <li>"Open Arms"</li>
+            <li>"Separate Ways (Worlds Apart)"</li>
+            <li>"Faithfully"</li>
+            <li>"Who's Crying Now"</li>
+            <li>"Lights"</li>
+            <li>"Any Way You Want It"</li>
+            <li>"Wheel in the Sky"</li>
+            <li>"Oh Sherrie"</li>
+            <li>"Foolish Heart"</li>
+            <li>"Missing You"</li>
         </ul>
 
-        <p>Jelly Roll continues to bring together country, rock, hip-hop, and other musical influences while using his songwriting to tell deeply personal stories.</p>
-        `,
+        <p>Steve Perry's voice has become one of the most recognizable in rock music. His recordings with Journey and his solo work continue to influence singers and remain popular with generations of rock fans around the world.</p>
+    `,
 
-        location:
-            "Nashville, Tennessee",
-
-        email:
-            "official-contact-required",
+        location: "Hanford, California",
+        email: "official-contact-required",
 
         social: {
             instagram: "#",
@@ -693,9 +682,9 @@ const celebrities = {
         },
 
         stats: {
-            experience: "—",
-            appearances: "—",
-            fans: "—"
+            experience: "50+ years",
+            appearances: "40+ credits",
+            fans: "Global audience"
         },
 
         packages: [
@@ -734,56 +723,49 @@ const celebrities = {
             }
 
         ]
-
     },
 
 
-    "zach-top": {
-
-        name: "Zach Top",
-
-        category: "Country Singer & Songwriter",
-
-        image:
-            "images/zach-top.jpg",
-
-        heroImage:
-            "images/zach-top-hero.jpg",
+    "tame-impala": {
+        name: "Tame Impala",
+        category: "Psychedelic Rock Project",
+        image: "images/tame-impala.jpg",
+        heroImage: "images/tame-impala-hero.jpg",
 
         shortBio:
-            "Country singer-songwriter known for his traditional country sound, classic influences, and energetic approach to modern country music.",
+            "Australian psychedelic music project created and led by Kevin Parker, known for atmospheric production, experimental sounds, and albums including Currents, Lonerism, and The Slow Rush.",
 
-        bio:
-            `
-        <p>Zach Top is an American country singer and songwriter known for his traditional country sound and strong connection to the classic country music styles that influenced his generation.</p>
+        bio: `
+        <p>Tame Impala is the psychedelic music project created and led by Australian musician, songwriter, producer, and multi-instrumentalist Kevin Parker. Originating in Perth, Western Australia, the project became known for its distinctive combination of psychedelic rock, electronic production, dreamy textures, and carefully layered studio arrangements.</p>
 
-        <p>Top developed his musical identity around traditional country instrumentation, songwriting, and vocal styles while bringing those influences into a contemporary setting.</p>
+        <p>Kevin Parker writes, records, produces, and performs much of the music associated with Tame Impala. The project's early releases established a strong psychedelic rock identity, while later albums incorporated elements of pop, disco, electronic music, and experimental production.</p>
 
-        <p>His music has gained attention for its classic-country character and his ability to combine traditional sounds with modern production. His rise has positioned him among a newer generation of artists helping maintain traditional country influences in contemporary country music.</p>
+        <p>Tame Impala gained international recognition with albums such as <em>Innerspeaker</em> and <em>Lonerism</em>. The project reached an even wider audience with the critically acclaimed album <em>Currents</em>, which featured songs such as "Let It Happen," "The Less I Know the Better," and "Eventually."</p>
 
-        <p>Top has received major recognition within the country-music industry, including nominations at major country award shows.</p>
+        <p>The project's fourth studio album, <em>The Slow Rush</em>, continued Parker's exploration of electronic and psychedelic sounds while focusing heavily on themes of time, change, relationships, and personal growth. The album received multiple award nominations and further established Tame Impala as an internationally recognized music project.</p>
 
         <h3>Some notable songs include:</h3>
 
         <ul>
-            <li>“I Never Lie”</li>
-            <li>“Sounds Like the Radio”</li>
-            <li>“Dirt Turns to Gold”</li>
-            <li>“Cold Beer & Country Music”</li>
-            <li>“Bad Luck”</li>
-            <li>“Use Me”</li>
-            <li>“Lonely for a Livin’”</li>
-            <li>“There’s the Sun”</li>
+            <li>"The Less I Know the Better"</li>
+            <li>"Let It Happen"</li>
+            <li>"Feels Like We Only Go Backwards"</li>
+            <li>"Elephant"</li>
+            <li>"Borderline"</li>
+            <li>"Eventually"</li>
+            <li>"New Person, Same Old Mistakes"</li>
+            <li>"Mind Mischief"</li>
+            <li>"Reality in Motion"</li>
+            <li>"Is It True"</li>
+            <li>"Lost in Yesterday"</li>
+            <li>"The Moment"</li>
         </ul>
 
-        <p>Top continues to develop his career while bringing classic country influences to a new generation of listeners.</p>
-        `,
+        <p>Tame Impala has become one of the most influential psychedelic music projects of the modern era. Kevin Parker's distinctive production style and ability to blend rock instrumentation with electronic and pop influences have given the project a unique place in contemporary music.</p>
+    `,
 
-        location:
-            "Sunnyside, Washington",
-
-        email:
-            "official-contact-required",
+        location: "Perth, Western Australia",
+        email: "official-contact-required",
 
         social: {
             instagram: "#",
@@ -792,9 +774,9 @@ const celebrities = {
         },
 
         stats: {
-            experience: "—",
-            appearances: "—",
-            fans: "—"
+            experience: "20+ years",
+            appearances: "50+ recordings",
+            fans: "Global audience"
         },
 
         packages: [
@@ -833,7 +815,6 @@ const celebrities = {
             }
 
         ]
-
     },
 
 

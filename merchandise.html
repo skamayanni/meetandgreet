@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Merchandise | THE EXPERIENCE</title>
+
+    <meta name="description" content="Explore the exclusive merchandise collection from THE EXPERIENCE.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/merchandise.css">
+
+</head>
+
+<body>
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+
+    <header class="site-header">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span>THE</span>
+                EXPERIENCE
+            </a>
+
+            <nav class="nav-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="#about" class="nav-celebrity-about">
+                    About
+                </a>
+
+                <a href="packages.html" class="nav-celebrity-packages">
+                    Packages
+                </a>
+
+                <a href="donate.html" class="nav-celebrity-support">
+                    Donate
+                </a>
+
+                <!-- <a href="merchandise.html" class="active">
+                    Merchandise
+                </a> -->
+
+                <a href="#" id="contactTawk">
+                    Contact
+                </a>
+
+                <a href="booking.html#bookingForm" id="profileBooking" class="nav-button">
+                    Request a Meet & Greet
+                </a>
+
+            </nav>
+            <button type="button" class="merch-cart-button" id="openCart">
+
+                <span class="cart-icon">
+                    🛍
+                </span>
+
+                <span>
+                    Cart
+                </span>
+
+                <span class="cart-count" id="cartCount">
+                    0
+                </span>
+
+            </button>
+
+
+
+            <button class="menu-toggle" id="menuToggle">
+                ☰
+            </button>
+
+    </header>
+
+
+    <main>
+
+        <!-- =========================================
+             HERO
+        ========================================== -->
+
+        <section class="merch-hero">
+
+            <div class="merch-hero-overlay"></div>
+
+            <div class="merch-hero-content">
+
+                <p class="eyebrow">
+                    THE OFFICIAL COLLECTION
+                </p>
+
+                <h1>
+                    Wear the
+                    <span>moment.</span>
+                </h1>
+
+                <p id="merchHeroDescription">
+                    Discover exclusive pieces created for fans
+                    who want to carry the experience with them.
+                </p>
+
+                <a href="#merchandiseCollection" class="merch-hero-button">
+                    Explore Collection
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             COLLECTION HEADER
+        ========================================== -->
+
+        <section class="merchandise-section" id="merchandiseCollection">
+
+            <div class="container">
+
+                <div class="merchandise-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            SHOP THE COLLECTION
+                        </p>
+
+                        <h2>
+                            <span id="merchCelebrityName">
+                                Steve Perry
+                            </span>
+                            <br>
+                            Merchandise
+                        </h2>
+
+                    </div>
+
+                    <p class="merchandise-intro" id="merchandiseIntro">
+                        A curated collection of apparel and
+                        accessories inspired by the experience.
+                    </p>
+
+                </div>
+
+
+                <!-- =================================
+                     CATEGORY FILTERS
+                ================================== -->
+
+                <div class="merch-filters" id="merchFilters">
+
+                    <button type="button" class="merch-filter active" data-category="all">
+                        All
+                    </button>
+
+                    <button type="button" class="merch-filter" data-category="shirts">
+                        T-Shirts
+                    </button>
+
+                    <button type="button" class="merch-filter" data-category="hoodies">
+                        Hoodies
+                    </button>
+
+                    <button type="button" class="merch-filter" data-category="headwear">
+                        Headwear
+                    </button>
+
+                    <button type="button" class="merch-filter" data-category="accessories">
+                        Accessories
+                    </button>
+
+                    <button type="button" class="merch-filter" data-category="limited">
+                        Limited Edition
+                    </button>
+
+                </div>
+
+
+                <!-- =================================
+                     PRODUCT GRID
+                ================================== -->
+
+                <div class="merch-product-grid" id="merchProductGrid">
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             FEATURED BANNER
+        ========================================== -->
+
+        <section class="merch-featured">
+
+            <div class="container merch-featured-inner">
+
+                <div>
+
+                    <p class="eyebrow">
+                        LIMITED COLLECTION
+                    </p>
+
+                    <h2>
+                        Made for the
+                        <span>memorable moments.</span>
+                    </h2>
+
+                    <p>
+                        Discover limited pieces created for
+                        collectors and dedicated fans.
+                    </p>
+
+                </div>
+
+                <a href="#merchandiseCollection" class="merch-outline-button">
+                    Shop Limited Edition
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         CART DRAWER
+    ========================================== -->
+
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+
+        <div class="cart-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    YOUR COLLECTION
+                </p>
+
+                <h2>
+                    Shopping Bag
+                </h2>
+
+            </div>
+
+            <button type="button" id="closeCart" class="close-cart">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-items" id="cartItems">
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>
+                    Subtotal
+                </span>
+
+                <strong id="cartTotal">
+                    $0
+                </strong>
+
+            </div>
+
+            <button type="button" class="checkout-button" id="checkoutButton">
+                Continue to Checkout
+            </button>
+
+            <p class="checkout-note">
+                Secure checkout options will be available
+                when payment processing is connected.
+            </p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- =========================================
+         PRODUCT MODAL
+    ========================================== -->
+
+    <div class="product-modal" id="productModal">
+
+        <div class="product-modal-backdrop" id="productModalBackdrop"></div>
+
+
+        <div class="product-modal-content">
+
+            <button type="button" class="product-modal-close" id="closeProductModal">
+                ×
+            </button>
+
+
+            <div class="product-modal-grid">
+
+                <div class="product-modal-image-wrap">
+
+                    <img src="" alt="" id="modalProductImage">
+
+                </div>
+
+
+                <div class="product-modal-info">
+
+                    <p class="eyebrow" id="modalProductCategory">
+                        COLLECTION
+                    </p>
+
+                    <h2 id="modalProductName">
+                        Product Name
+                    </h2>
+
+                    <strong class="modal-product-price" id="modalProductPrice">
+                        $0
+                    </strong>
+
+                    <p class="modal-product-description" id="modalProductDescription">
+                    </p>
+
+
+                    <div class="size-selector" id="sizeSelector">
+
+                        <label>
+                            Select Size
+                        </label>
+
+                        <div class="size-options">
+
+                            <button type="button" data-size="S">
+                                S
+                            </button>
+
+                            <button type="button" data-size="M">
+                                M
+                            </button>
+
+                            <button type="button" data-size="L">
+                                L
+                            </button>
+
+                            <button type="button" data-size="XL">
+                                XL
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="modal-quantity">
+
+                        <label>
+                            Quantity
+                        </label>
+
+                        <div class="quantity-control">
+
+                            <button type="button" id="decreaseQuantity">
+                                −
+                            </button>
+
+                            <span id="modalQuantity">
+                                1
+                            </span>
+
+                            <button type="button" id="increaseQuantity">
+                                +
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button type="button" class="modal-add-cart" id="modalAddToCart">
+                        Add to Shopping Bag
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+
+    <footer>
+
+        <div class="footer-main">
+
+            <div>
+
+                <a href="index.html" class="logo">
+                    <span>THE</span>
+                    EXPERIENCE
+                </a>
+
+                <p>
+                    Creating memorable fan experiences,
+                    one moment at a time.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 THE EXPERIENCE. All rights reserved.
+            </span>
+
+            <span>
+                Official merchandise collection
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================
+         TAWK
+    ========================================== -->
+
+    <script>
+
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+
+        (function () {
+
+            var s1 =
+                document.createElement("script");
+
+            var s0 =
+                document.getElementsByTagName("script")[0];
+
+            s1.async = true;
+
+            s1.src =
+                "https://embed.tawk.to/6ab15b1804573f34480e9dd4/1k32cnn01";
+
+            s1.charset = "UTF-8";
+
+            s1.setAttribute(
+                "crossorigin",
+                "*"
+            );
+
+            s0.parentNode.insertBefore(
+                s1,
+                s0
+            );
+
+        })();
+
+    </script>
+
+
+    <script src="js/celebrities.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/merchandise.js"></script>
+
+</body>
+
+</html>
