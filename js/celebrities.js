@@ -69,7 +69,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -80,7 +80,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -91,7 +91,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -172,7 +172,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -183,7 +183,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -194,7 +194,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -303,7 +303,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal introduction and meet-and-greet."
@@ -314,7 +314,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "A longer personal experience."
@@ -325,7 +325,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -406,7 +406,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -417,7 +417,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -428,7 +428,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -499,7 +499,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -510,7 +510,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -521,7 +521,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -601,7 +601,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -612,7 +612,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -623,7 +623,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -693,7 +693,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -704,7 +704,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -715,7 +715,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -785,7 +785,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -796,7 +796,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -807,7 +807,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -884,7 +884,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -895,7 +895,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -906,7 +906,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -979,7 +979,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -990,7 +990,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1001,7 +1001,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1066,7 +1066,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1077,7 +1077,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1088,7 +1088,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1153,7 +1153,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1164,7 +1164,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1175,7 +1175,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1241,7 +1241,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1252,7 +1252,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1263,7 +1263,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1329,7 +1329,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1340,7 +1340,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1351,7 +1351,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1415,7 +1415,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1426,7 +1426,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1437,7 +1437,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1502,7 +1502,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1513,7 +1513,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1524,7 +1524,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1588,7 +1588,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1599,7 +1599,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1610,7 +1610,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."
@@ -1674,7 +1674,7 @@ const celebrities = {
 
                 name: "Essential",
 
-                price: 10099,
+                price: 3580,
 
                 description:
                     "A personal meet-and-greet experience."
@@ -1685,7 +1685,7 @@ const celebrities = {
 
                 name: "Premium",
 
-                price: 34999,
+                price: 10099,
 
                 description:
                     "An extended personal experience with additional time."
@@ -1696,7 +1696,7 @@ const celebrities = {
 
                 name: "VIP",
 
-                price: 49999,
+                price: 34999,
 
                 description:
                     "The complete premium experience."

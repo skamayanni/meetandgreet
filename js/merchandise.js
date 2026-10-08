@@ -136,7 +136,7 @@ document.addEventListener(
                 name:
                     `${celebrityName} Street Talk Album T-Shirt`,
                 category: "shirts",
-                price: 45,
+                price: 85,
                 image:
                     `images/${celebrityId}-merch-tee.jpg`,
                 badge: "Bestseller",
@@ -150,7 +150,7 @@ document.addEventListener(
                 name:
                     `${celebrityName} Classic Hoodie`,
                 category: "hoodies",
-                price: 75,
+                price: 105,
                 image:
                     `images/${celebrityId}-merch-hoodie.jpg`,
                 badge: "",
@@ -163,8 +163,8 @@ document.addEventListener(
                 id: "signature-cap",
                 name:
                     `${celebrityName} Crewneck Sweatshirt`,
-                category: "headwear",
-                price: 58,
+                category: "sweatshirt",
+                price: 98,
                 image:
                     `images/${celebrityId}-merch-cap.jpg`,
                 badge: "",
@@ -178,7 +178,7 @@ document.addEventListener(
                 name:
                     `${celebrityName} Limited Edition Tee`,
                 category: "limited",
-                price: 55,
+                price: 98,
                 image:
                     `images/${celebrityId}-limited-tee.jpg`,
                 badge: "Limited",
@@ -191,8 +191,8 @@ document.addEventListener(
                 id: "fan-hoodie",
                 name:
                     `${celebrityName} Retro Crewneck Sweatshirt`,
-                category: "hoodies",
-                price: 85,
+                category: "sweatshirt",
+                price: 100,
                 image:
                     `images/${celebrityId}-fan-hoodie.jpg`,
                 badge: "Exclusive",
@@ -206,7 +206,7 @@ document.addEventListener(
                 name:
                     `${celebrityName} Season Holiday Ornament`,
                 category: "accessories",
-                price: 30,
+                price: 50,
                 image:
                     `images/${celebrityId}-poster.jpg`,
                 badge: "Collector",
@@ -344,8 +344,8 @@ document.addEventListener(
                 hoodies:
                     "Hoodies",
 
-                headwear:
-                    "Headwear",
+                sweatshirt:
+                    "sweatshirt",
 
                 accessories:
                     "Accessories",
@@ -1545,34 +1545,34 @@ through THE EXPERIENCE website.
            MOBILE MENU
         ========================================== */
 
-        const menuToggle =
-            document.getElementById(
-                "menuToggle"
-            );
+        // const menuToggle =
+        //     document.getElementById(
+        //         "menuToggle"
+        //     );
 
-        const navLinks =
-            document.querySelector(
-                ".nav-links"
-            );
+        // const navLinks =
+        //     document.querySelector(
+        //         ".nav-links"
+        //     );
 
 
-        if (
-            menuToggle &&
-            navLinks
-        ) {
+        // if (
+        //     menuToggle &&
+        //     navLinks
+        // ) {
 
-            menuToggle.addEventListener(
-                "click",
-                function () {
+        //     menuToggle.addEventListener(
+        //         "click",
+        //         function () {
 
-                    navLinks.classList.toggle(
-                        "mobile-open"
-                    );
+        //             navLinks.classList.toggle(
+        //                 "mobile-open"
+        //             );
 
-                }
-            );
+        //         }
+        //     );
 
-        }
+        // }
 
 
         /* =========================================
